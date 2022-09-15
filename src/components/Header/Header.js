@@ -8,6 +8,7 @@ import {SiGitlab} from "react-icons/si";
 
 import {
   Container,
+  Div1,
   Div2,
   Div3,
   NavLink,
@@ -18,40 +19,30 @@ import {
 const Header = () => (
   <Container>
     <Div2>
-      <li>
-      <Link href="/">
-        <a
-            style={{
-              display: "flex",
-              alignItems: "center",
-              color: "white",
-              marginBottom: "16px",
-            }}
-        >
-          <DiMaterializecss size="3rem" /> <Span>Portfolio</Span>
-        </a>
-      </Link>
-      </li>
-      <li>
-        <Link href="/">
-          <NavLink>Présentation</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="/projets">
-          <NavLink>Projets</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="/veille">
-          <NavLink>Veille Technologique</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="/certifications">
-          <NavLink>Certifications</NavLink>
-        </Link>
-      </li>
+      <Div1>
+        <li>
+          <Link href="/">
+            <NavLink>Présentation</NavLink>
+          </Link>
+        </li>
+        <li>
+          <Link href="/projets">
+            <NavLink>Projets</NavLink>
+          </Link>
+        </li>
+      </Div1>
+      <Div1>
+        <li>
+          <Link href="/veille">
+            <NavLink>Veille</NavLink>
+          </Link>
+        </li>
+        <li>
+          <Link href="/certifications">
+            <NavLink>Certifications</NavLink>
+          </Link>
+        </li>
+      </Div1>
     </Div2>
     <Div3>
       <SocialIcons href="https://gitlab.com/divatchyano">

@@ -1,7 +1,7 @@
 import React from "react";
 
 const BackgroundAnimation = () => (
-  <div style={{marginTop: '9rem'}}>
+  <div style={{marginTop: '8rem'}}>
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"

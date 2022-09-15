@@ -23,21 +23,21 @@ function Hero() {
   return (
     <Section row nopadding>
       <LeftSection>
-        <SectionTitle main center>
-          Bienvenue sur mon portfolio !
+        <SectionTitle main>
+          Bienvenue sur mon portfolio&nbsp;!
         </SectionTitle>
         <br />
         <br />
         <br />
-        <br/>
-        <br/>
         <br/>
         <SectionTitle style={{fontFamily: "Space Grotesk, sans serif"}}>
-          <SpanCrochet>{'{'}</SpanCrochet><Span>David Grondin</Span><SpanCrochet>{'}'}</SpanCrochet><br />
+          <SpanCrochet>{'{'}</SpanCrochet><Span>&nbsp;David Grondin&nbsp;</Span><SpanCrochet>{'}'}</SpanCrochet><br />
         </SectionTitle>
-        <SectionTitle style={{fontFamily: "serif"}}>
+        <SectionTitle flexColumnSmall style={{fontFamily: "serif"}}>
           Développeur web
-          <Span2 style={{ marginLeft: "2rem" }} ref={textRef}></Span2>
+
+          <span style={{marginTop: "1.2rem"}}>&nbsp;<Span2 ref={textRef}></Span2></span>
+
         </SectionTitle>
         <SectionText2>
           Etudiant passionné d'informatique,

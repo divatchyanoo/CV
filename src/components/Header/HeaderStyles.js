@@ -3,19 +3,10 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: 4fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 5fr 1fr;
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    grid-template-rows: repeat(2, 60px);
-    grid-column-gap: 0.5rem;
-    grid-row-gap: 0.5rem;
-  }
 `;
 
 export const Span = styled.span`
@@ -23,32 +14,31 @@ export const Span = styled.span`
 `;
 
 export const Div1 = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
+  
   display: flex;
   flex-direction: row;
-  align-content: center;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 3;
-  }
+  flex: 1;
+  justify-content: space-around;
+ 
 `;
 export const Div2 = styled.div`
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 `;
 export const Div3 = styled.div`
   
   display: flex;
   justify-content: center;
   align-items: center;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    //
-  }
+  
 `;
 
 // Navigation Links
 export const NavLink = styled.a`
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 32px;
+  padding:0.5rem;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
   &:hover {
@@ -56,8 +46,11 @@ export const NavLink = styled.a`
     opacity: 1;
     cursor: pointer;
   }
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.5rem;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    font-size: 1.8rem;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 1.5rem;
   }
 `;
 
