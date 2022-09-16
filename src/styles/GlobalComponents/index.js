@@ -155,18 +155,18 @@ export const SectionTitle3 = styled.h3`
 
 export const SectionTitle4 = styled.h2`
   font-weight: 5;
+  text-align: center;
   font-size: ${(props) => (props.main ? "52px" : "42px")};
   margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
-  background-color: red;
+  background: linear-gradient(#e66465, #9198e5);
   border-radius: 20px;
   padding: 5px 10px;
   text-shadow: 3px 3px 3px black;
   margin-top: 30px;
   width: max-content;
   max-width: 100%;
-
 `
 
 export const SectionTitle2 = styled.h2`
