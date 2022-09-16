@@ -17,12 +17,11 @@ const Footer = () => {
   return (
     <FooterWrapper style={{display:'flex', justifyContent:'space-between', alignItems: 'center'}}>
      
-        <LinkColumn style={{maxWidth:'50vw'}}>
+        <LinkColumn style={{maxWidth: "50vw"}}>
           <LinkTitle>Contactez-moi</LinkTitle>
           <LinkItem href="mailto:davidgrondin2a@gmail.com">
             davidgrondin2a@gmail.com
           </LinkItem>
-          <LinkItem href="https://mahara.btssio.corsica/view/view.php?id=145" >Justification des compétences</LinkItem>
         </LinkColumn>
       <SocialIconsContainer>
         <CompanyContainer></CompanyContainer>
