@@ -118,34 +118,39 @@ export const SectionTitle = styled.h2`
 export const SectionTitle3 = styled.h3`
   font-weight: 5;
   font-size: ${(props) => (props.main ? "52px" : "42px")};
-  line-height: ${(props) => (props.main ? "72px" : "56px")};
-  width: max-content;
-  max-width: 100%;
-
-  margin-bottom: 25px;
+  line-height: ${(props) => (props.main ? "52px" : "42px")};
+  width: fit-content;
+  text-align: center;
+  margin-bottom: 40px;
   margin-left: 20px;
   background-color: chocolate;
   border-radius: 20px;
-  padding: 5px 10px;
+  padding: 17px 17px;
   text-shadow: 3px 3px 3px black;
   margin-top: 30px;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    font-size: ${(props) => (props.main ? "56px" : "48px")};
-    line-height: ${(props) => (props.main ? "56px" : "48px")};
-    margin-bottom: 12px;
-    padding: ${(props) => (props.main ? "40px 0 12px" : "0")};
+    font-size: ${(props) => (props.main ? "45px" : "36px")};
+    line-height: ${(props) => (props.main ? "50px" : "40px")};
+    margin-bottom: 30px;
+    padding: 14px 14px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 32px;
-    line-height: 40px;
     font-size: ${(props) => (props.main ? "28px" : "32px")};
     line-height: ${(props) => (props.main ? "32px" : "40px")};
-    margin-bottom: 8px;
-    padding: ${(props) => (props.main ? "16px 0 8px" : "0")};
-    max-width: 100%;
+    padding: 12px 12px;
+    margin-bottom: 25px;
   }
+  
+  @media screen and (max-width: 425px){
+    width: min-content;
+    font-size: ${(props) => (props.main ? "28px" : "32px")};
+    line-height: ${(props) => (props.main ? "32px" : "40px")};
+    padding: 8px 8px;
+    margin-bottom: 20px;  
+    
+}
 `;
 
 export const SectionTitle4 = styled.h2`

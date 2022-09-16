@@ -22,7 +22,7 @@ const Technologies = () => (
   <Section id="tech">
     <SectionDivider style={{ marginBottom: "3%" }} />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionTitle3>En entreprise</SectionTitle3>
+    <SectionTitle3>Entreprise</SectionTitle3>
     <SectionText>
       J'ai pu développer pour l'entreprise Prevn un livequizz multijoueur reliant Web et mobile.
       Pour le frontEnd j'ai utilisé React permettant de créer et maintenir ses composants,
