@@ -156,7 +156,7 @@ export const SectionTitle3 = styled.h3`
 export const SectionTitle4 = styled.h2`
   font-weight: 5;
   text-align: center;
-  font-size: ${(props) => (props.main ? "52px" : "42px")};
+  font-size: ${(props) => (props.main ? "100px" : "90px")};
   margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -167,6 +167,13 @@ export const SectionTitle4 = styled.h2`
   margin-top: 30px;
   width: max-content;
   max-width: 100%;
+  
+  @media ${(props) => (props.theme.breakpoints.md)} {
+    font-size: ${(props) => (props.main ? "50px" : "45px")};
+  }
+  @media ${(props) => (props.theme.breakpoints.xsm)} {
+    font-size: ${(props) => (props.main ? "35px" : "32px")};
+  }
 `
 
 export const SectionTitle2 = styled.h2`
@@ -241,28 +248,6 @@ export const SectionText2 = styled.p`
   }
 `;
 
-export const SectionText3 = styled.p`
-  max-width: 950px;
-  font-size: 24px;
-  line-height: 40px;
-  font-weight: 300;
-  padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
-
-  @media ${(props) => props.theme.breakpoints.md} {
-    max-width: 420px;
-    font-size: 20px;
-    line-height: 32px;
-    padding-bottom: 24px;
-  }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 16px;
-    line-height: 24px;
-    padding-bottom: 16px;
-  }
-`;
-
 export const SectionText4 = styled.p`
 max-width: 950px;
 font-size: 24px;
@@ -272,7 +257,7 @@ padding-bottom: 3.6rem;
 padding-top: 3.6rem;
 padding-right: 2rem;
 padding-left: 2rem;
-background-color: black;
+background: linear-gradient(grey, black);
 margin-bottom: 5rem;
 text-align: center;
 align-self: center;

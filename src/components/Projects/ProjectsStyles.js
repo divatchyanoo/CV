@@ -48,6 +48,14 @@ export const HeaderThree = styled.h3`
   color: #9cc9e3;
   padding: 0.5rem 0;
   font-size: ${(props) => (props.title ? "3rem" : "2rem")};
+  
+  @media ${(props) => (props.theme.breakpoints.md)} {
+    font-size: 22px;
+  }
+
+  @media ${(props) => (props.theme.breakpoints.sm)} {
+    font-size: 18px;
+  }
 `;
 
 export const Hr = styled.hr`
@@ -75,25 +83,21 @@ export const Hr3 = styled.hr`
   background: cadetblue;
 `;
 
-export const Intro = styled.div`
-  width: 170px;
-  margin: 0 auto;
-  color: #dce3e7;
-  font-family: "Droid Serif", serif;
-  font-size: 13px;
-  font-style: italic;
-  line-height: 18px;
-`;
-
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
   color: #e4e6e7;
-  font-style: 2rem;
-  line-height: 24px;
+  padding: 0 10px;
+  font-size: 22px;
+  line-height: 40px;
   text-align: justify;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    font-size: 19px;
+    line-height: 35px;
+  }
+  
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.3rem;
+    font-size: 16px;
+    line-height: 32px
   }
 `;
 

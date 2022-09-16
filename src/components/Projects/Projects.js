@@ -13,18 +13,18 @@ import {
 } from "./ProjectsStyles";
 import {
     Section,
-    SectionTitle2,
+    SectionTitle4,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
 const Projects = () => (
     <Section nopadding id="projects">
-        <SectionTitle2 main>Projets</SectionTitle2>
+        <SectionTitle4 style={{marginTop: "8rem"}} main>Projets</SectionTitle4>
         <GridContainer>
             {projects.map(
                 ({ id, image, title, description, tags, domain, visit }) => (
                     <BlogCard key={id}>
-                        <Img style={{minHeight: "20rem", maxHeight: "20rem"}} src={image} />
+                        <Img style={{objectFit: 'contain', height:'fit-content'}} src={image} />
                         <TitleContent>
                             <HeaderThree title>{title}</HeaderThree>
                             <Hr />
