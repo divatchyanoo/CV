@@ -127,10 +127,10 @@ const Technologies = () => (
       </ListItem>
       <ListItem style={{marginTop: "10%"}}>
         <GiPirateFlag
-          style={{
-            marginLeft: "28%",
-            marginBottom: '3%',
-          }}
+            style={{
+              marginLeft: "14%",
+              marginBottom: '3%',
+            }}
           size="3rem"
         />
         <ListContainer>
@@ -145,11 +145,10 @@ const Technologies = () => (
       </ListItem>
       <ListItem style={{marginTop: "10%"}}>
         <RiCodeSSlashLine
-          style={{
-            marginBottom: '3%',
-            marginLeft: '10%'
-            
-          }}
+            style={{
+              marginLeft: "14%",
+              marginBottom: '3%',
+            }}
           size="3rem"
         />
         <ListContainer style ={{marginBottom: '20%'}}>

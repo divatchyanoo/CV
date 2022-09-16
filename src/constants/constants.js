@@ -152,15 +152,3 @@ export const articles = [
     visit: "https://www.journaldunet.fr/web-tech/dictionnaire-de-l-iot/1440678-lpwan-quelles-caracteristiques-et-quels-reseaux-pour-le-bas-debit/",
 }
 ]
-
-
-export const TimeLineData = [
-  { year: 2002, text: "Début de mon existence" },
-  {
-    year: "2017 - 2020",
-    text: "Etude générale en science de l'ingénieur",
-  },
-  { year: "2020 - 2022",
-    text: "BTS SIO, option SLAM"
-  }
-];
