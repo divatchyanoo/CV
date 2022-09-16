@@ -42,7 +42,8 @@ const Technologies = () => (
     </SectionText>
     <SectionTitle3>Prochain objectif</SectionTitle3>
     <SectionText>
-      Je souhaite découvrir de façon plus approfondie le monde de l'IA et de la cybersécurité ainsi que l'ensemble des possibilités qu'elles offrent.
+        Je souhaite découvrir de façon plus approfondie le monde de la cybersécurité et l'IA ainsi que l'ensemble des possibilités qu'elles offrent.
+        Je suis actuellement une formation sur
     </SectionText>
     <List>
       <ListItem>
@@ -84,7 +85,7 @@ const Technologies = () => (
             <span style={{ fontWeight: "bolder", fontStyle: "italic" }}>
               Compétences
             </span>{" "}
-            <br /> <br /> Node.js <br /> PHP <br /> Laravel <br /> Adonis <br /> webSocket <br /> GraphQL
+            <br /> <br /> Node.js <br /> PHP <br /> Laravel <br /> Adonis <br /> WebSocket <br /> GraphQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -121,7 +122,7 @@ const Technologies = () => (
             <span style={{ fontWeight: "bolder", fontStyle: "italic" }}>
               Compétences
             </span>{" "}
-            <br /> <br /> Protocoles <br /> Sauvegarde <br /> Load-balancing 
+            <br /> <br /> Protocoles <br /> Sauvegarde <br /> Load-balancing <br /> Architecture
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -139,7 +140,7 @@ const Technologies = () => (
             <span style={{ fontWeight: "bolder", fontStyle: "italic" }}>
               Compétences
             </span>{" "}
-            <br /> <br /> Chiffrement <br /> Protection Web <br /> RGPD
+            <br /> <br /> Chiffrement <br /> Protection Web <br /> RGPD <br /> Reverse shells
           </ListParagraph>
         </ListContainer>
       </ListItem>

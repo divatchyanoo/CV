@@ -66,7 +66,6 @@ export const projects = [
     tags: ["WebSocket", "MariaDB", "React", "React-Native", "Adonis"],
     domain: ["BackEnd", "FrontEnd", "API", "Base de données", "Mobile"],
     source: "https://mening-app.herokuapp.com/",
-    visit: "https://gitlab.com/Prevn",
     id: 0,
   },
   {
@@ -77,7 +76,6 @@ export const projects = [
     image: "/images/ecombox.png",
     tags: ["C#", "Framework .net", "WPF", "Powershell", "Docker"],
     domain: ["Client riche"],
-    visit: "https://gitlab.com/e-combox/e-comBox_appDesktopWindows",
     id: 1,
   },
   {
@@ -88,7 +86,6 @@ export const projects = [
     image: "/images/gestages.png",
     tags: ["React", "GraphQL"],
     domain: ["Front-end", "API", "Back-end"],
-    visit: "https://gitlab.com/siollb/geststages",
     id: 2,
   },
   {
@@ -99,18 +96,16 @@ export const projects = [
     image: "/images/network.png",
     tags: ["PHP", "Script Shell", "Laravel", "DNS"],
     domain: ["Front-end", "Back-end", "API par script"],
-    visit: "https://gitlab.com/siollb/NetworkManager",
     id: 3,
   },
   {
-    title: "NFC Card reader",
+    title: "Prevn - Refonte graphique",
     description:
-      `Création via l'utilisation d'une Raspberry Pi 2 et du module explorenfc d'un lecteur de carte NFC
-      permettant de déterminer l'heure d'arrivée et de départ de leur propriétaire.`,
-    image: "/images/nfc.png",
-    tags: ["Python", "NFC", "SQLite"],
-    domain: ["Hardware", "Base de données"],
-    visit: "https://docs.google.com/document/d/1MgXjQGz6IS-La1yJs-5YyTwFNztq8RR3A0CgNvaLpsI/edit?usp=sharing",
+      `Refonte graphique de l'application mobile Prevn selon une charte précise réalisé suite à un audit,
+      respect du code couleur et des dimensions des composants`,
+    image: "/images/prevn.png",
+    tags: ["React-Native", "Adobe XD"],
+    domain: ["Mobile", "Front-End"],
     id: 4,
   },
   
